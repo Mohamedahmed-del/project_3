@@ -1,0 +1,339 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.bt-1:hover{
+    transform: scale(1.1,1.1);
+    color: aqua;
+}
+.d-flex{
+    margin-right: 10px;
+}
+.carousel-item img{
+    height: 85vh;
+}
+.carousel-caption{
+    background-color: rgba(37, 36, 36, 0.5);
+    border-radius: 10px;
+}
+.carousel-item .carousel-caption{
+    margin: 30px;
+}
+.carousel-indicators{
+    margin: 50px;
+}
+.div2{
+    margin-top: -50px;
+}
+.bt-2{
+    margin-left: 630px;
+}
+.modal-title{
+    z-index: -1;
+}
+.container-fluid{
+    background-color: rgb(157, 254, 254);
+}
+.p-1{
+    margin-left: 500px;
+}
+.nav-item:hover{
+    width:50px;
+  color: rgb(156, 182, 197);
+}
+.kk{
+    width: 50px;
+}
+.cc{
+    background-color:  rgb(211, 233, 244);
+}
+.hh{
+    height: 150px;
+}
+.p-0{
+    background-image: url(../images/tona\ algabal.jpg);
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* overflow: auto; */
+}
+.mt-5{
+    margin-left: 180px;
+}
+.vv{
+    background-image: url(../images/clouds.jpg);
+}
+.xx{
+    background-image: url(../images/Screenshot\ 2024-11-05\ 221304.png);
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+.scale{
+    /* position: relative; */
+    transition: .5s;
+}
+.scale:hover{
+    transform: scale(0.9,0.9);
+    transition: .5s;
+}
+.jj{
+    background-image: url(../images/zizo.jpg);
+    /* position: relative; */
+
+}
+.Nov{
+    margin-left: -40px;
+    position: absolute;
+}
+.eng{
+    position: absolute;
+}
+.IMG{
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 150px;
+    border: 2px solid rgb(66, 64, 64);
+    position: absolute;
+}
+.al{
+    position: relative;
+}
+.qq{
+    margin-top: 330px;
+    position: absolute;
+}
+.qs{
+    margin-top: 310px;
+    position: absolute;
+}
+.zz{
+    background-color:  rgb(211, 233, 244);
+}
+.dd{
+    background-image: url(../images/photo_2024-10-16_20-58-07.jpg);
+}
+.container{
+    position: relative;
+}
+.col-md-4{
+    position: relative;
+}
+.ss::after{
+    position:absolute;
+    content:" ";
+    width: 0;
+    height:0;
+    background-color: #4e91f6;
+    opacity:0;
+    top: 0;
+    left: 0;
+ 
+ }
+.ss:hover::after{
+     width: 100%;
+     height: 100%;
+     transition: .6s;
+     opacity: .4;
+ }
+.ss::before{
+    position:absolute;
+    content:" ";
+    width: 0;
+    height:0;
+    background-color:  #4e91f6;
+    opacity:0;
+    bottom: 0;
+    right: 0;
+} 
+.ss:hover::before{
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    opacity: .4;
+}
+.mn{
+    margin-top: 100px;
+}
+.sd{
+    background-image: linear-gradient(43deg,#4158D0 33%,#C850C0 46%,#FFCC70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 50px;
+}
+.border-2{
+    padding: 100px;
+    border: 1px solid black;
+}
+.bmw{
+    z-index: 15;
+    position: relative;
+    /* position: absolute; */
+}
+.list-group-flush{
+    list-style: none;
+    position: absolute;
+    z-index: 5;
+    font-size: 70px;
+    position: fixed;
+    color: #4e91f6;
+    margin-top: 100px;
+    margin-left: 1300px;
+}
+.list-group-flush li:hover{
+    color: rgb(172, 167, 167);
+}
+.mf{
+    /* background-color: red; */
+    /* color: red; */
+}
+/* Start  Friend Code */
+.shw{
+    box-shadow: #C850C0;
+}
+.news .card {
+    margin-top:10px;
+    height: 400px;
+    background-color:  rgb(211, 233, 244);
+  }
+  .news .card .bg-img{
+    height:400px;
+  }
+  .news .card .bg-img img{
+    height:100%;
+  }
+  .news .card .bg-img .img-right{
+    clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
+  }
+  
+  .bm img{
+      /* clip-path: polygon(0 0, 83% 0, 74% 100%, 0 100%); */
+      /* clip-path: polygon(0 0, 94% 0, 82% 100%, 0 100%); */
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 28% 100%);
+      /* clip-path: polygon(0 0, 100% 0, 100% 100%, 17% 99%); */
+}
+.bm .img-2{
+    /* clip-path: polygon(0 0, 81% 0, 69% 99%, 0 100%); */
+    clip-path: polygon(0 0, 100% 0, 77% 100%, 0 100%);
+    /* clip-path: polygon(0 0, 75% 0, 64% 100%, 0 100%); */
+}
+  
+  /* .bm{
+      width: 100%;
+      margin:auto;
+      background-color: rgb(233, 231, 231);
+      border: 1px solid red;
+  } */
+  .bv{
+      font-size:30px;
+      /* margin-left: -150px; */
+  }
+  /* .bn{
+       margin-left:-150px; 
+  } */
+  .line-div{
+      width:100px;
+      height: 4px;
+      background-color: rgb(134, 136, 162);
+      /* margin-left: -150px; */
+      border-radius: 2px;
+      transition: .5s;
+  }
+  .sef:hover .line-div{
+      width: 60px;
+      transition: .5s;
+    }
+  .float-end{
+      float: right;
+      direction: rtl;
+  }
+  .btn-secondary:hover{
+    color: black;
+  }
+  .bt-5:hover{
+    background-color: white;
+  }
+  .bt-6:hover{
+    background-color:  rgb(211, 233, 244);
+  }
+/* End  Friend Code */
+
+.home-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity: .5;
+}
+.home-overlay:hover{
+    background-color: rgb(151, 150, 150);
+}
+.icon-1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(100, 100, 252);
+}
+.fa-bounce{
+    font-size: 50px;
+    color: white;
+}
+.flex-row,.hg{
+    box-shadow: 10px 10px 10px 10px rgb(211, 210, 210);
+}
+.linediv{
+}
+.ee{
+    width: 400px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 10px;
+}
+.ii{
+    margin-left: 50px;
+}
+.ip{
+    margin-top: 50px;
+    margin-left: -300px;
+}
+.rq{
+    padding-top: 10px;
+}
+.bo{
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+}
+.aq{
+    line-height: 20px;
+    margin-top: 50px;
+    margin-left: -200px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.hr2{
+    margin-top: 40px;
+    width: 2000px;
+}
+.minya{
+    height: 100px;
+    /* margin-left: 600px; */
+}
+.hR{
+    margin-top: 450px;
+}
+.Hr{
+    width: 96%;
+}
+.modal-backdrop.show{
+    z-index: -1;
+}
